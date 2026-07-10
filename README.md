@@ -4,6 +4,9 @@ An Exploratory Data Analysis (EDA) project on global seismic activity from 2024 
 
 ---
 
+
+
+
 ## 📊 Dataset
 
 | Detail | Info |
