@@ -1,9 +1,6 @@
-# 🌍 Earthquake EDA Analysis (2024–2025)
+# 🌍 Earthquake EDA Analysis (2024-2025)
 
 An Exploratory Data Analysis (EDA) project on global seismic activity from 2024 to 2025, using real-world earthquake data. This project applies advanced geospatial, statistical, and interactive visualizations to uncover patterns in earthquake frequency, magnitude, depth, and geographic distribution.
-
-> **Group 6 | Final Project — EDA Course**
-> Master's in Data Science, Montclair State University
 
 ---
 
@@ -21,17 +18,17 @@ An Exploratory Data Analysis (EDA) project on global seismic activity from 2024 
 ## 🔍 Analysis Performed
 
 ### 1. 🗺️ Map Visualizations
-- **Choropleth Map** — Compares average earthquake magnitude and frequency across countries
-- **Bubble Map** — Global distribution of seismic events plotted on OpenStreetMap, highlighting the "Ring of Fire"
-- **Density Heatmap** — Weighted by magnitude to show earthquake concentration hotspots
+- **Choropleth Map** - Compares average earthquake magnitude and frequency across countries
+- **Bubble Map** - Global distribution of seismic events plotted on OpenStreetMap, highlighting the "Ring of Fire"
+- **Density Heatmap** - Weighted by magnitude to show earthquake concentration hotspots
 
 ### 2. 📈 Aggregation Visualizations
-- **Histogram + KDE** — Distribution of earthquake magnitudes; illustrates the **Gutenberg-Richter Law** (exponential drop in frequency as magnitude increases)
-- **Box Plot** — Compares top 5 magnitude measurement types (`mb`, `ml`, `mww`, etc.) used in seismology
+- **Histogram + KDE** - Distribution of earthquake magnitudes; illustrates the **Gutenberg-Richter Law** (exponential drop in frequency as magnitude increases)
+- **Box Plot** - Compares top 5 magnitude measurement types (`mb`, `ml`, `mww`, etc.) used in seismology
 
 ### 3. ⚡ Interactive Visualizations
-- **3D Bubble Plot** — Depth vs. Magnitude by Continent; allows comparison of seismic structure across tectonic regions
-- **Time-Series with Range Slider** — Full chronological view of seismic events with scrubbing, colored by depth
+- **3D Bubble Plot** - Depth vs. Magnitude by Continent; allows comparison of seismic structure across tectonic regions
+- **Time-Series with Range Slider** - Full chronological view of seismic events with scrubbing, colored by depth
 
 ---
 
@@ -73,5 +70,4 @@ pip install folium plotly reverse_geocoder pycountry_convert seaborn
 
 ---
 
-## 📚 Course
-Exploratory Data Analysis — Master's in Data Science, Montclair State University
+
